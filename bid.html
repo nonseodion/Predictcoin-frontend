@@ -262,16 +262,21 @@
 						</div>
 
 						<!-- <div class="lost__round">
-                            <img src="images/no-product.svg" alt="lost-bid">
+							<div class='round'>
+								<img src="images/lost-bid.svg" alt="lost-bid" />
+							</div>
 
-                            <div class="sorry__text">
-                                <p class="sorry__text__title">Sorry, you lost this bid round</p>
-                                <p class="sorry__text__body">Sweet thing, you can reclaim your initial bid and bid on another round</p>
-                            </div>
+							<div class="sorry__text">
+								<p class="sorry__text__title">Sorry, you lost this bid round</p>
+								<p class="sorry__text__body">
+									Sweet thing, you can reclaim your initial bid and bid on
+									another round
+								</p>
+							</div>
 
-                            <button class="reclaim__bid">Reclaim $BID</button>
+							<button class="reclaim__bid">Reclaim $BID</button>
 
-                            <div class="next__round__timing">
+							<div class="next__round__timing">
 								<div class="progress__bar">
 									<div class="elapsed"></div>
 								</div>
@@ -279,7 +284,32 @@
 									Next round ends in <span class="time">24h:34m:23s</span>
 								</p>
 							</div>
-                        </div> -->
+						</div> -->
+
+						<!-- <div class="no__round">
+							<div class="round">
+								<img src="images/no-bid.svg" alt="no-bid" />
+							</div>
+
+							<div class="sorry__text">
+								<p class="sorry__text__title">You did not bid the round</p>
+								<p class="sorry__text__body">
+									Seems you missed out on this $Bid round, you can still stake
+									if another staking round is active
+								</p>
+							</div>
+
+							<button class="reclaim__bid">Go to Staking</button>
+
+							<div class="next__round__timing">
+								<div class="progress__bar">
+									<div class="elapsed"></div>
+								</div>
+								<p class="time__counter">
+									Next round ends in <span class="time">24h:34m:23s</span>
+								</p>
+							</div>
+						</div> -->
 
 						<!-- <div class="won__round">
                             <img src="images/trophy.svg" alt="won-bid">
@@ -303,8 +333,8 @@
 					</div>
 
 					<div class="prediction__bid__card recent__bids">
-                        <div class="recent__bids__body no__bids">
-                            <h1 class="title">Recent</h1>
+						<div class="recent__bids__body no__bids">
+							<h1 class="title">Recent</h1>
 
 							<div class="no__bids__content">
 								<img src="images/no-bids.svg" alt="no-bids" />
@@ -312,90 +342,202 @@
 								<a href="##">Click to refresh</a>
 							</div>
 
-                            <div class="bid__auctions">
-                                <table>
-                                    <thead class="table__header">
-                                        <tr class="table__row">
-                                            <th class="table__head">#</th>
-                                            <th class="table__head">Address</th>
-                                            <th class="table__head">$BID auction</th>
-                                            <th></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="table__body">
-                                        <tr class="table__row">
-                                            <td class="table__data">1</td>
-                                            <td class="table__data">0x1234...8904</td>
-                                            <td class="table__data">9,000,000</td>
-                                            <td class="table__data">
-                                                <div class="content">
-                                                    <i class="fas fa-trophy gold"></i>
-                                                    <span class="details">
-                                                        <i class="fas fa-user"></i>
-                                                    </span>
-                                                </div>
-                                            </td>
-                                        </tr>
+							<div class="bid__auctions">
+								<table>
+									<thead class="table__header">
+										<tr class="table__row">
+											<th class="table__head">#</th>
+											<th class="table__head">Address</th>
+											<th class="table__head">$BID auction</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody class="table__body">
+										<tr class="table__row">
+											<td class="table__data">1</td>
+											<td class="table__data">0x1234...8904</td>
+											<td class="table__data">9,000,000</td>
+											<td class="table__data">
+												<div class="content">
+													<i class="fas fa-trophy gold"></i>
+													<span class="details">
+														<i class="fas fa-user"></i>
+													</span>
+												</div>
+											</td>
+										</tr>
 
-                                        <tr class="table__row">
-                                            <td class="table__data">2</td>
-                                            <td class="table__data">0x1234...8904</td>
-                                            <td class="table__data">8,000,000</td>
-                                            <td class="table__data">
-                                                <div class="content">
-                                                    <i class="fas fa-trophy gold"></i>
-                                                    <span class="details">
-                                                        <i class="fas fa-user"></i>
-                                                    </span>
-                                                </div>
-                                            </td>
-                                        </tr>
+										<tr class="table__row">
+											<td class="table__data">2</td>
+											<td class="table__data">0x1234...8904</td>
+											<td class="table__data">8,000,000</td>
+											<td class="table__data">
+												<div class="content">
+													<i class="fas fa-trophy gold"></i>
+													<span class="details">
+														<i class="fas fa-user"></i>
+													</span>
+												</div>
+											</td>
+										</tr>
 
-                                        <tr class="table__row">
-                                            <td class="table__data">346</td>
-                                            <td class="table__data">0x1234...8904</td>
-                                            <td class="table__data">500</td>
-                                            <td class="table__data">
-                                                <div class="content">
-                                                    <i class="fas fa-trophy silver"></i>
-                                                    <span class="details">
-                                                        <i class="fas fa-user"></i>
-                                                    </span>
-                                                </div>
-                                            </td>
-                                        </tr>
+										<tr class="table__row">
+											<td class="table__data">346</td>
+											<td class="table__data">0x1234...8904</td>
+											<td class="table__data">500</td>
+											<td class="table__data">
+												<div class="content">
+													<i class="fas fa-trophy silver"></i>
+													<span class="details">
+														<i class="fas fa-user"></i>
+													</span>
+												</div>
+											</td>
+										</tr>
 
-                                        <tr class="table__row">
-                                            <td class="table__data">3</td>
-                                            <td class="table__data">0x1234...8904</td>
-                                            <td class="table__data">8,000</td>
-                                            <td class="table__data">
-                                                <div class="content">
-                                                    <i class="fas fa-trophy silver"></i>
-                                                    <span class="details">
-                                                        <i class="fas fa-user"></i>
-                                                    </span>
-                                                </div>
-                                            </td>
-                                        </tr>
+										<tr class="table__row">
+											<td class="table__data">3</td>
+											<td class="table__data">0x1234...8904</td>
+											<td class="table__data">8,000</td>
+											<td class="table__data">
+												<div class="content">
+													<i class="fas fa-trophy silver"></i>
+													<span class="details">
+														<i class="fas fa-user"></i>
+													</span>
+												</div>
+											</td>
+										</tr>
 
-                                        <tr class="table__row">
-                                            <td class="table__data">4</td>
-                                            <td class="table__data">0x1234...8904</td>
-                                            <td class="table__data">7,500</td>
-                                            <td class="table__data">
-                                                <div class="content">
-                                                    <i class="fas fa-trophy silver"></i>
-                                                    <span class="details">
-                                                        <i class="fas fa-user"></i>
-                                                    </span>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+										<tr class="table__row">
+											<td class="table__data">4</td>
+											<td class="table__data">0x1234...8904</td>
+											<td class="table__data">7,500</td>
+											<td class="table__data">
+												<div class="content">
+													<i class="fas fa-trophy silver"></i>
+													<span class="details">
+														<i class="fas fa-user"></i>
+													</span>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</div>
+					</div>
+				</div>
+
+				<div class="prediction__bid__history">
+					<h1 class="title">Bid History</h1>
+					<h2 class="subtitle">
+						An history of all BID rounds so far, if you partook in any round and
+						are elgible for reclaim or staking, you’ll find you round here
+					</h2>
+
+					<form>
+						<div class="show__bids">
+							<input type="checkbox" name="show-bid" id="show-bid" />
+							<p>Show only my bids</p>
+						</div>
+
+						<div class="search__date">
+							<label for="choose-date">
+								<img src="images/calender.svg" alt="choose-date" />
+								<input type="date" name="choose-date" id="choose-date" hidden />
+							</label>
+							<p>Search by Date</p>
+						</div>
+
+						<div class="show__rounds">
+							<p>Show rounds</p>
+							<div class="show__rounds__input">
+								<select name="show-rounds" id="show-rounds">
+									<option value="50">50</option>
+									<option value="100">100</option>
+									<option value="150">150</option>
+									<option value="200">200</option>
+								</select>
+							</div>
+						</div>
+					</form>
+
+					<div class="bid__history__table">
+						<table>
+							<thead class="table__header">
+								<tr class="table__row">
+									<th class="table__head">DATE</th>
+									<th class="table__head">ROUND</th>
+									<th class="table__head">
+										<div class="content">
+											<p>MY BID</p>
+											<span class="details">
+												<i class="fas fa-user"></i>
+											</span>
+										</div>
+									</th>
+									<th class="table__head">1ST WON</th>
+									<th class="table__head">2ND WON</th>
+									<th class="table__head"></th>
+								</tr>
+							</thead>
+							<tbody class="table__body">
+								<tr class="table__row">
+									<td class="table__data">21-12-2021, 20:45</td>
+									<td class="table__data">1</td>
+									<td class="table__data">$58,900.34</td>
+									<td class="table__data">$60,000.45</td>
+									<td class="table__data">$59,000.45</td>
+									<td class="table__data buttons" rowspan="4">
+										<div>
+											<button>Reclaim $Bid</button>
+											<button>Go to stake</button>
+										</div>
+									</td>
+								</tr>
+
+								<tr class="table__row">
+									<td class="table__data">21-12-2021, 20:45</td>
+									<td class="table__data">2</td>
+									<td class="table__data">-</td>
+									<td class="table__data">$160,000.45</td>
+									<td class="table__data">$159,000.45</td>
+								</tr>
+
+								<tr class="table__row">
+									<td class="table__data">21-12-2021, 20:45</td>
+									<td class="table__data">3</td>
+									<td class="table__data">$60,000.45</td>
+									<td class="table__data">$260,000.45</td>
+									<td class="table__data">$259,000.45</td>
+								</tr>
+
+								<tr class="table__row">
+									<td class="table__data">21-12-2021, 20:45</td>
+									<td class="table__data">4</td>
+									<td class="table__data">$58,900.34</td>
+									<td class="table__data">$60,000.45</td>
+									<td class="table__data">$59,000.45</td>
+								</tr>
+
+								<tr class="table__row">
+									<td class="table__data">21-12-2021, 20:45</td>
+									<td class="table__data">4</td>
+									<td class="table__data">$58,900.34</td>
+									<td class="table__data">$60,000.45</td>
+									<td class="table__data">$59,000.45</td>
+								</tr>
+
+								<tr class="table__row">
+									<td class="table__data">21-12-2021, 20:45</td>
+									<td class="table__data">4</td>
+									<td class="table__data">$58,900.34</td>
+									<td class="table__data">$60,000.45</td>
+									<td class="table__data">$59,000.45</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>
