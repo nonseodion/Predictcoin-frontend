@@ -712,8 +712,34 @@ input::placeholder {
   margin-bottom: 10px;
 }
 
-.prediction__bid__history form .search__date label {
+.prediction__bid__history form .search__date .calender__picker {
+  position: relative;
+}
+
+.prediction__bid__history form .search__date .calender__picker label {
   margin-bottom: 0;
+  cursor: pointer;
+}
+
+.prediction__bid__history form .search__date .calender__picker #choose-date {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.prediction__bid__history form .search__date .calender__picker #choose-date::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   cursor: pointer;
 }
 

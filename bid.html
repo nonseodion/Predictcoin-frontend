@@ -442,12 +442,15 @@
 							<p>Show only my bids</p>
 						</div>
 
+						
 						<div class="search__date">
-							<label for="choose-date">
-								<img src="images/calender.svg" alt="choose-date" />
-								<input type="date" name="choose-date" id="choose-date" hidden />
-							</label>
-							<p>Search by Date</p>
+							<div class="calender__picker">
+								<label for="choose-date" class='calender__icon'>
+									<img src="images/calender.svg" alt="choose-date" />
+								</label>
+								<input type="date" name="choose-date" id="choose-date" />
+							</div>
+							<p class="calender__value">Search by Date</p>
 						</div>
 
 						<div class="show__rounds">
@@ -819,5 +822,6 @@
 		<script src="assets/front_n/js/custom.js"></script>
 		<script src="js/web3/config.js"></script>
 		<script src="js/web3/wallet.js"></script>
+		<script src="js/web3/predictionBid.js"></script>
 	</body>
 </html>
