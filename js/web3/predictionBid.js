@@ -27,6 +27,34 @@ const dummyTableData = [
         firstWon: '$60,000.45',
         secondWon: '$59,000.45',
     },
+    {
+        date: '21-12-2021, 20:45',
+        round: 4,
+        myBid: '$58,900.34',
+        firstWon: '$60,000.45',
+        secondWon: '$59,000.45',
+    },
+    {
+        date: '21-12-2021, 20:45',
+        round: 4,
+        myBid: '$58,900.34',
+        firstWon: '$60,000.45',
+        secondWon: '$59,000.45',
+    },
+    {
+        date: '21-12-2021, 20:45',
+        round: 4,
+        myBid: '$58,900.34',
+        firstWon: '$60,000.45',
+        secondWon: '$59,000.45',
+    },
+    {
+        date: '21-12-2021, 20:45',
+        round: 4,
+        myBid: '$58,900.34',
+        firstWon: '$60,000.45',
+        secondWon: '$59,000.45',
+    },
 ];
 
 const bidHistoryTableBody = document.querySelector(
